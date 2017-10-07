@@ -1,0 +1,31 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: turquoise;
+    background: #8B8BC4;
+    text-align: center;
+}
+
+h1{
+    font-size: 30px;
+    color: greenyellow;
+}
+
+table{
+    border: 1px solid black;
+    background: white;
+    width: 100%;
+}
+
+th{
+    border: 1px solid orange;
+}
+
+td{
+    border: 1px solid red;
+    padding: 10px;
+    text-align: left;
+}
+
+img {
+    border-radius: 100%;
+}
