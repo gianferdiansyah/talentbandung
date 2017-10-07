@@ -5,30 +5,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Form Sederhana Dengan HTML</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+    <h1 class="logo">Form</h1>
     <ul>
-        <li><a href="index.html" title="Home">Home</a></li>
-        <li><a href="element.html" title="Element HTML">Element</a></li>
-        <li><a href="form.html" title="Form HTML">Form</a></li>
-        <li><a href="tabel.html" title="Tabel HTML">Tabel</a></li>
-        <li><a href="biodata.html" title="Biodata">Biodata</a></li>
+        <li>
+          <a href="index.html" title="Home">Home</a>
+        </li>
+        <li>
+          <a href="element.html" title="Element HTML">Element</a>
+        </li>
+        <li>
+          <a href="form.html" title="Form HTML">Form</a>
+        </li>
+        <li>
+          <a href="tabel.html" title="Tabel HTML">Tabel</a>
+        </li>
+        <li>
+          <a href="biodata.html" title="Biodata">Biodata</a>
+        </li>
     </ul>
+    <hr>
 
     <!-- Simple form which will send a GET request -->
-<form action="" method="get">
+    <form action="" method="get">
         <label for="GET-name">Name:</label>
         <input id="GET-name" type="text" name="name">
         <input type="submit" value="Save">
-      </form>
+      </form><br>
       
       <!-- Simple form which will send a POST request -->
       <form action="" method="post">
         <label for="POST-name">Name:</label>
         <input id="POST-name" type="text" name="name">
         <input type="submit" value="Save">
-      </form>
+      </form><br>
       
       <!-- Form with fieldset, legend, and label -->
       <form action="" method="post">
